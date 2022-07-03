@@ -9,54 +9,55 @@
 </head>
 
 <body>
-<header class="header">
-    <div class="container header-section">
-    <!-- The logo -->
-    <a class="logo" href="index.html"><span class="logo-web">Web</span><span>Studio</span></a>
-    <!--navigation-->
-    <nav class="navigation">
-        <ul class="social-links navigation-list">
-        <li class="navigation-list-item"><a class="link" href="index.html">Agencja</a></li>
-        <li class="navigation-list-item"><a class="link activepage" href="portfolio.html">Portfolio</a></li>
-        <li class="navigation-list-item"><a class="link" href="">Kontakt</a></li>
-    </ul>
-</nav>
-<ul class="social-links-contact navigation-list">
-    <li class="mail-tel mail"><a class="link-contact" href="info@devstudio.com">
-    <svg class="icon"> 
-        <use href="images/icons.svg#icon-mail"></use>
-    </svg>
-    info@devstudio.com</a></li>
-    <li class="navigation-list-tel mail-tel"><a class="link-contact" href="+48111111111">
-        <svg class="icon">
-        <use href="images/icons.svg#icon-phone"></use>
-        </svg> 
-        +48 111 111 111</a></li>
-    </ul>
-    </div>
-</header>
+    <header class="header">
+        <div class="container header-section">
+        <!-- The logo -->
+        <a class="logo header-section__logo" href="index.html"><span class="logo-web">Web</span><span>Studio</span></a>
+        <!--navigation-->
+        <nav class="navigation">
+            <ul class="social-links navigation-list transition">
+            <li class="navigation-list__item"><a class="link navigation-link activepage" href="index.html">Agencja</a></li>
+            <li class="navigation-list__item"><a class="link navigation-link" href="portfolio.html">Portfolio</a></li>
+            <li class="navigation-list__item"><a class="link navigation-link" href="">Kontakt</a></li>
+        </ul>
+    </nav>
+    <ul class="social-links-contact navigation-list transition">
+      <li class="link mail"><a class="contact__link link transition" href="info@devstudio.com">
+      <svg class="icon transition"> 
+          <use href="images/icons.svg#icon-mail"></use>
+      </svg>
+      info@devstudio.com</a></li>
+      <li class="navigation-list__tel transition link"><a class="contact__link link" href="+48111111111">
+          <svg class="icon transition">
+          <use href="images/icons.svg#icon-phone"></use>
+          </svg> 
+          +48 111 111 111</a></li>
+      </ul>
+        </div>
+    </header>
+    
 
 <main>
     <section>
         <div class="container">
-    <ul class="menu-button-ul" >
-        <li><button type="button" class="menu-button"> Wszystkie </button> </li>
-        <li><button type="button" class="menu-button"> Strony </button></li>
-        <li><button type="button" class="menu-button"> Aplikacje </button></li>
-        <li><button type="button" class="menu-button"> Dizajn </button></li>
-        <li><button type="button" class="menu-button"> Marketing </button></li>
+    <ul class="menu-button__ul" >
+        <li><button type="button" class="menu-button transition"> Wszystkie </button> </li>
+        <li><button type="button" class="menu-button transition"> Strony </button></li>
+        <li><button type="button" class="menu-button transition"> Aplikacje </button></li>
+        <li><button type="button" class="menu-button transition"> Dizajn </button></li>
+        <li><button type="button" class="menu-button transition"> Marketing </button></li>
     </ul>
 </div>
     </section>
 <section>
     <div class="container">
 <ul class="img-layout-portfolio">
-    <li class="img-portfolio-class">
-        <figure class="img-portfolio-pic">
+    <li class="img-portfolio-class transition">
+        <figure class="portfolio__pic">
         <img class="img-portfolio" src="images/portfolio(1).jpg" alt="Technocrack" width="370" height="294">
          <div>
-              <div class="coverlet">
-                <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+              <div class="portfolio__coverlet">
+                <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
               </div>
             </div>
@@ -66,12 +67,12 @@
             </figcaption>
             </figure>
         </li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
             <img class="img-portfolio" src="images/portfolio(2).jpg" alt="Grafika New Orlean vs Golden Star" width="370" height="294">
             <div>
-                <div class="coverlet">
-                  <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                <div class="portfolio__coverlet">
+                  <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                   do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                 </div>
               </div>
@@ -81,12 +82,12 @@
             </figcaption>
             </figure>
     </li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(3).jpg" alt="Restauracja Seafood" width="370" height="294">
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -96,12 +97,12 @@
                 </figcaption>
             </figure>
         </li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(4).jpg" alt="Projekt Prime" width="370" height="294">
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -110,12 +111,12 @@
                 <p class="img-portfolio-category">Marketing</p>
             </figcaption>
         </figure> 
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(5).jpg" alt="Projekt Boxes" width="370" height="294">
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -124,12 +125,12 @@
                 <p class="img-portfolio-category">Aplikacja</p>
             </figcaption>
         </figure></li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(6).jpg" alt="Inspiration has no Borders" width="370" height="294">
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -139,12 +140,12 @@
             </figcaption>
         </figure>
     </li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(7).jpg" alt="Magazyn Limited Edition" width="370" height="294">
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -153,12 +154,12 @@
                 <p class="img-portfolio-category">Dizajn</p>
             </figcaption>
         </figure></li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(8).jpg" alt="Projekt LAB" width="370" height="294" >
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -168,12 +169,12 @@
             </figcaption>
         </figure>
     </li>
-        <li class="img-portfolio-class">
-            <figure class="img-portfolio-pic">
+        <li class="img-portfolio-class transition">
+            <figure class="portfolio__pic">
                 <img class="img-portfolio" src="images/portfolio(9).jpg" alt="Growing Business" width="370" height="294">
                 <div>
-                    <div class="coverlet">
-                      <p class="coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                    <div class="portfolio__coverlet">
+                      <p class="portfolio__coverlet-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                       do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                     </div>
                   </div>
@@ -205,28 +206,28 @@
     <h3 class="join-title" >DOŁĄCZ DO NAS</h3>
     <ul class="join-icons">
         <li class="join-item">
-            <a class="join-item_link" href="#">
+            <a class="join-item_link transition" href="#">
                 <svg class="join-social_link">
                     <use href="images/icons.svg#icon-instagram"></use>
                 </svg>
             </a>
         </li>
         <li class="join-item">
-            <a class="join-item_link" href="#">
+            <a class="join-item_link transition" href="#">
                 <svg class="join-social_link">
                     <use href="images/icons.svg#icon-twitter"></use>
                 </svg>
             </a>
         </li>
         <li class="join-item">
-            <a class="join-item_link" href="#">
+            <a class="join-item_link transition" href="#">
                 <svg class="join-social_link">
                     <use href="images/icons.svg#icon-facebook"></use>
                 </svg>
             </a>
         </li>
         <li class="join-item">
-            <a class="join-item_link" href="#">
+            <a class="join-item_link transition" href="#">
                 <svg class="join-social_link">
                     <use href="images/icons.svg#icon-linkedin"></use>
                 </svg>
