@@ -1,0 +1,38 @@
+.team {
+    background-color: $backgroundContents;
+
+        &__item {
+            margin: 0;
+            width: 270px;
+            background-color: $brightColor;
+            border-bottom-right-radius: $buttonBorderRadius;
+            border-bottom-left-radius: $buttonBorderRadius;
+            box-shadow: 0px 2px rgba(0, 0, 0, 0.2), 0px 1px rgba(0, 0, 0, 0.14), 0px 1px rgba(0, 0, 0, 0.12)
+        }
+}
+.team__picture {
+    margin: 0;
+}
+
+.team__img {
+    display: block;
+}
+.team__text {
+    font-size: $subjectFont;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team__name {
+    color: $bodyColor;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.team__duty {
+    color: $detailColor;
+    font-size: $subjectFont;
+    margin-top: 0;
+}

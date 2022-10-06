@@ -1,0 +1,41 @@
+.specification {
+
+        &__list {
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__item {
+            width: 270px;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+}
+
+.specification__product {
+    width: 270px;
+    height: 120px;
+    background-color: $backgroundContents;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specification__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.specification__title {
+    font-size: $detailColor;
+    line-height: 1.14;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.specification__text {
+    color: $detailColor;
+    font-size: $detailFont;
+    line-height: 1.71;
+    margin: 0;
+}

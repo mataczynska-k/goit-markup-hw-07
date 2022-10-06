@@ -1,12 +1,9 @@
-.logo {
-    font-family: $logoFont;
-    font-size: 26px;
-    line-height: 1.19;
-    margin-right: 93px;
-    transition-property: color;
+.header-section__logo {
+    color: #000000;
 
 
-        &--color {
+        &:hover,
+        &:focus {
             color: $brandColor;
         }
 }

@@ -1,0 +1,35 @@
+.navigation {
+    font-weight: 500;
+    font-size: $detailColor;
+    line-height: 1.14;
+    align-items: center;
+
+        &__item {
+            color: $bodyColor;
+            margin-right: 46px;
+        }
+}
+
+.navigation__link { 
+
+        &:visited {
+            color: $bodyColor;
+        }
+
+        &:hover,
+        &:focus {
+            color: $brandColor;
+        }
+}
+
+.navigation__link--activepage {
+    
+        &::after {
+            content: "";
+            display: block;
+            position: relative;
+            border-top: 4px solid $brandColor;
+            border-radius: 2px;
+            top: 31px;
+        }
+}

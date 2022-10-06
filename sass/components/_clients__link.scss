@@ -1,0 +1,19 @@
+.clients__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: $buttonBorderRadius;
+    fill: $iconsColor;
+    transition-property: fill, border;
+
+
+        &:hover,
+        &:focus {
+            fill: $brandColor;
+            border: 1px solid $brandColor;
+            cursor: pointer;
+        }
+}

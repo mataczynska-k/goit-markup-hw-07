@@ -1,9 +1,15 @@
-.container {
-    width: 1200px;
-    padding: 0 ;
-    padding-left: 15px;
-    padding-right: 15px;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-    /*align-items: center;
-    margin: 0 auto;*/
-  }
+body {
+    font-family: $bodyFont;
+    color: $bodyColor;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}

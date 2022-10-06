@@ -1,0 +1,40 @@
+.footer {
+    background-color: $sectionColor;
+
+
+        &-section {
+            display: flex;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            margin-left: auto;
+        }
+}
+
+.footer-contact__list {
+    display: block;
+    padding-top: 20px;
+}
+
+.footer-contact__item {
+    font-style: normal;
+    font-size: $detailFont;
+    line-height: 1.71;
+
+        &--light {
+            color: $brightColor;
+        }
+}
+
+.footer-contact__link {
+    color: $linkFooterColor;
+
+
+        &:hover,
+        &:focus {
+            color: $brandColor;
+        }
+
+        &:visited {
+            color: $linkFooterColor;
+}
+}

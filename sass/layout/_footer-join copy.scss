@@ -1,0 +1,15 @@
+.footer-join {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+    padding-top: 12px;
+
+        &__list {
+            align-items: center;
+        }
+
+        &__link {
+            background-color: $linkFooterColor-bg;
+            transition-property: background-color;
+        }
+}

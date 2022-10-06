@@ -1,0 +1,41 @@
+.newsletter {
+    width: 570px;
+    height: 86px;
+    margin-left: 78px;
+    padding-top: 12px;
+
+        &__form {
+            display: flex;
+            margin-top: 20px;
+        }
+}
+
+.newsletter__box {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: $buttonBorderRadius;
+    background: $sectionColor;
+    margin-right: 12px;
+    padding-left: 15px;
+
+
+        &::placeholder {
+            font-size: $subjectFont;
+            line-height: 1.25;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+
+        &:focus {
+            outline: none;
+            color: $brightColor;
+        }
+}
+
+.newsletter__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
